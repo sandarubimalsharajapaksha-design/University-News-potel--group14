@@ -28,6 +28,33 @@
             <p>Have an upcoming faculty event, student achievement, or important campus announcement? Reach out to our editorial desk below.</p>
         </section>
 
+        <!-- News submission and contact form -->
+        <section class="form-section">
+            <h3>Submit a News Story or Inquiry</h3>
+            <form action="#" method="post">
+                <label for="fullname">Full Name:</label><br>
+                <input type="text" id="fullname" name="fullname" placeholder="e.g., K. Perera" required><br><br>
+
+                <label for="scnumber">Student / Staff ID:</label><br>
+                <input type="text" id="scnumber" name="scnumber" placeholder="e.g., SC/2025/XXXXX" required><br><br>
+
+                <label for="email">University Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="university@ruh.ac.lk" required><br><br>
+
+                <label for="category">Submission Type:</label><br>
+                <select id="category" name="category">
+                    <option value="news-tip">Submit Campus News / Announcement</option>
+                    <option value="subscribe">Subscribe to Newsletter Alerts</option>
+                    <option value="inquiry">General Editorial Inquiry</option>
+                </select><br><br>
+
+                <label for="message">News Details / Message:</label><br>
+                <textarea id="message" name="message" rows="5" placeholder="Write your announcement details or message here..." required></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
         <!-- editorial office contact details -->
         <section class="contact-info">
             <h3>Editorial Desk Information</h3>
